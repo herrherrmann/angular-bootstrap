@@ -36,7 +36,7 @@
     'prefix': 'uib-accordion-heading'
     'body': """
     <uib-accordion-heading>
-        ${My Heading}
+        ${1:My Heading}
     </uib-accordion-heading>
     """
 
@@ -59,7 +59,7 @@
     </div>
     """
 
-  'UI-Bootstrap Button Group':
+  'UI-Bootstrap Button Radio-Group':
     'prefix': 'uib-btn-group-radio'
     'body': """
     <div class="btn-group">
@@ -68,7 +68,7 @@
     </div>
     """
 
-  'UI-Bootstrap Button Group':
+  'UI-Bootstrap Button Checkbox (Property)':
     'prefix': 'btn-checkbox-'
     'body': 'btn-checkbox-${1:true|false}="$2"'
 
