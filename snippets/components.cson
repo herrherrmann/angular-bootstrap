@@ -1,72 +1,72 @@
-".text.html":
+'.text.html':
 
   # Accordion
   'UI-Bootstrap Accordion':
     'prefix': 'uib-accordion'
     'body': """
-    <uib-accordion close-others="${1:true}">
-        <uib-accordion-group heading="${2:heading}">
-            ${3:content}
-        </uib-accordion-group>
-    </uib-accordion>
-    """
+            <uib-accordion close-others="${1:true}">
+                <uib-accordion-group heading="${2:heading}">
+                    ${3:content}
+                </uib-accordion-group>
+            </uib-accordion>
+            """
 
   'UI-Bootstrap Accordion (All Properties)':
     'prefix': 'uib-accordion-'
     'body': """
-    <uib-accordion close-others="${1:true}">
-        <uib-accordion-group is-open="${2:foo.isOpen}" is-disabled="${3:foo.isDisabled}" panel-class="${4:panel-}" template-url="${5:my-template.html}">
-            <uib-accordion-heading>
-                ${6:heading}
-            </uib-accordion-heading>
-            ${7:content}
-        </uib-accordion-group>
-    </uib-accordion>
-    """
+            <uib-accordion close-others="${1:true}">
+                <uib-accordion-group is-open="${2:foo.isOpen}" is-disabled="${3:foo.isDisabled}" panel-class="${4:panel-}" template-url="${5:my-template.html}">
+                    <uib-accordion-heading>
+                        ${6:heading}
+                    </uib-accordion-heading>
+                    ${7:content}
+                </uib-accordion-group>
+            </uib-accordion>
+            """
 
   'UI-Bootstrap Accordion Group':
     'prefix': 'uib-accordion-group'
     'body': """
-    <uib-accordion-group heading="${1:Heading}" panel-class="${2:panel-}"${3: template-url="my-template.html"}>
-        ${4:Content}
-    </uib-accordion-group>
-    """
+            <uib-accordion-group heading="${1:Heading}" panel-class="${2:panel-}"${3: template-url="my-template.html"}>
+                ${4:Content}
+            </uib-accordion-group>
+            """
 
   'UI-Bootstrap Accordion Heading':
     'prefix': 'uib-accordion-heading'
     'body': """
-    <uib-accordion-heading>
-        ${1:My Heading}
-    </uib-accordion-heading>
-    """
+            <uib-accordion-heading>
+                ${1:My Heading}
+            </uib-accordion-heading>
+            """
 
 
   # Button
   'UI-Bootstrap Button':
     'prefix': 'uib-btn'
     'body': """
-    <button type="button" class="btn btn-${1:default|primary|success|info|warning|danger}" ng-model="${2:dasModel}" uib-btn-checkbox btn-checkbox-true="${3:1}" btn-checkbox-false="${4:0}">
-        ${5:Press Me Hard}
-    </button>
-    """
+            <button type="button" class="btn btn-${1:default|primary|success|info|warning|danger}" ng-model="${2:dasModel}" uib-btn-checkbox btn-checkbox-true="${3:1}" btn-checkbox-false="${4:0}">
+                ${5:Press Me Hard}
+            </button>
+            """
 
   'UI-Bootstrap Button Group':
     'prefix': 'uib-btn-group'
     'body': """
-    <div class="btn-group">
-        <label class="btn btn-${1:default|primary|success|info|warning|danger}" ng-model="${2:dasModel.first}" uib-btn-checkbox>${3:First}</label>
-        <label class="btn btn-${4:default|primary|success|info|warning|danger}" ng-model="${5:dasModel.second}" uib-btn-checkbox>${6:Second}</label>
-    </div>
-    """
+            <div class="btn-group">
+                <label class="btn btn-${1:default|primary|success|info|warning|danger}" ng-model="${2:dasModel.first}" uib-btn-checkbox>${3:First}</label>
+                <label class="btn btn-${4:default|primary|success|info|warning|danger}" ng-model="${5:dasModel.second}" uib-btn-checkbox>${6:Second}</label>
+            </div>
+            """
 
   'UI-Bootstrap Button Radio-Group':
     'prefix': 'uib-btn-group-radio'
     'body': """
-    <div class="btn-group">
-        <label class="btn btn-${1:default|primary|success|info|warning|danger}" ng-model="${2:dasModel}" uib-btn-radio="'${3:First}'"${4: uncheckable}>${5:First}</label>
-        <label class="btn btn-${6:default|primary|success|info|warning|danger}" ng-model="${2:dasModel}" uib-btn-radio="'${7:Second}'"${4: uncheckable}>${8:Second}</label>
-    </div>
-    """
+            <div class="btn-group">
+                <label class="btn btn-${1:default|primary|success|info|warning|danger}" ng-model="${2:dasModel}" uib-btn-radio="'${3:First}'"${4: uncheckable}>${5:First}</label>
+                <label class="btn btn-${6:default|primary|success|info|warning|danger}" ng-model="${2:dasModel}" uib-btn-radio="'${7:Second}'"${4: uncheckable}>${8:Second}</label>
+            </div>
+            """
 
   'UI-Bootstrap Button Checkbox (Property)':
     'prefix': 'btn-checkbox-'
@@ -77,7 +77,7 @@
   'UI-Bootstrap Collapse':
     'prefix': 'uib-collapse'
     'body': """
-    <div uib-collapse="${1:isCollapsed}">
-        ${2:Content}
-    </div>
-    """
+            <div uib-collapse="${1:isCollapsed}">
+                ${2:Content}
+            </div>
+            """

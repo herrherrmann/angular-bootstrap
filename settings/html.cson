@@ -1,39 +1,39 @@
 '.text.html, .text.css, .source.js':
-    'editor':
-        'completions': [
+  'editor':
+    'completions': [
 
-            ## Snippets for Autocompletion
-            'uib-accordion'
-            'uib-accordion-'
-            'uib-accordion-heading'
-            'uib-accordion-group'
-            'uib-alert'
-            'uib-btn'
-            'btn-checkbox-'
-            'uib-btn-group'
-            'uib-btn-group-radio'
-            'uib-carousel'
-            'uib-collapse'
-            'uib-dateparser'
-            'uib-datepicker'
-            'uib-datepickerpopup'
-            'uib-dropdown'
-            'uib-modal'
-            'uib-pager'
-            'uib-pagination'
-            'uib-popover'
-            'uib-position'
-            'uib-progressbar'
-            'uib-rating'
-            'uib-tabs'
-            'uib-timepicker'
-            'uib-tooltip'
-            'uib-typeahead'
+      ## Snippets for Autocompletion
+      'uib-accordion'
+      'uib-accordion-'
+      'uib-accordion-heading'
+      'uib-accordion-group'
+      'uib-alert'
+      'uib-btn'
+      'btn-checkbox-'
+      'uib-btn-group'
+      'uib-btn-group-radio'
+      'uib-carousel'
+      'uib-collapse'
+      'uib-dateparser'
+      'uib-datepicker'
+      'uib-datepickerpopup'
+      'uib-dropdown'
+      'uib-modal'
+      'uib-pager'
+      'uib-pagination'
+      'uib-popover'
+      'uib-position'
+      'uib-progressbar'
+      'uib-rating'
+      'uib-tabs'
+      'uib-timepicker'
+      'uib-tooltip'
+      'uib-typeahead'
 
-            ## Properties for individual use
+      ## Properties for individual use
 
-            # Buttons
-            'uib-btn-radio'
-            'uib-uncheckable'
-            'uncheckable'
-        ]
+      # Buttons
+      'uib-btn-radio'
+      'uib-uncheckable'
+      'uncheckable'
+    ]
