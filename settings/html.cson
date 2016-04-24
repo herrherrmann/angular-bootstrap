@@ -1,0 +1,29 @@
+'.text.html, .text.css, .source.js':
+    'editor':
+        'completions': [
+
+            # Snippets
+            'uibAccordion'
+            'uibAlert'
+            'uibButton'
+            'uibCarousel'
+            'uibCollapse'
+            'uibDateparser'
+            'uibDatepicker'
+            'uibDatepickerPopup'
+            'uibDropdown'
+            'uibModal'
+            'uibPager'
+            'uibPagination'
+            'uibPopover'
+            'uibPosition'
+            'uibProgressbar'
+            'uibRating'
+            'uibTabs'
+            'uibTimepicker'
+            'uibTooltip'
+            'uibTypeahead'
+
+            # Properties
+            'uib-collapse'
+        ]

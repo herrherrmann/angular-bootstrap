@@ -1,0 +1,16 @@
+{
+    "name": "angular-bootstrap",
+    "main": "./lib/angular-bootstrap",
+    "version": "0.0.1",
+    "description": "Snippets and autocompletion for Angular UI-Bootstrap Components.",
+    "keywords": [],
+    "activationCommands": {
+        "atom-workspace": "angular-bootstrap:toggle"
+    },
+    "repository": "https://github.com/herrherrmann/angular-bootstrap",
+    "license": "MIT",
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    },
+    "dependencies": {}
+}

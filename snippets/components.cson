@@ -1,0 +1,24 @@
+".text.html":
+
+  'UI-Bootstrap Accordion':
+    'prefix': 'uibAccordion'
+    'body': """
+    <uib-accordion close-others="${1:true}">
+        <uib-accordion-group heading="${2:heading}">
+            ${3:content}
+        </uib-accordion-group>
+    </uib-accordion>
+    """
+
+  'UI-Bootstrap Accordion (More Properties)':
+    'prefix': 'uibAccordion-'
+    'body': """
+    <uib-accordion close-others="${1:true}">
+        <uib-accordion-group is-open="${2:foo.isOpen}" is-disabled="${3:foo.isDisabled}" panel-class="${4:panel-}" template-url="${5:my-template.html}">
+            <uib-accordion-heading>
+                ${6:heading}
+            </uib-accordion-heading>
+            ${7:content}
+        </uib-accordion-group>
+    </uib-accordion>
+    """
