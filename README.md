@@ -22,3 +22,8 @@ Atom Snippets for [Angular UI Bootstrap](https://angular-ui.github.io/bootstrap)
 - [ ] Timepicker
 - [ ] Tooltip
 - [ ] Typeahead
+- [ ] Documentation
+
+# Contribute
+
+Feel free to add (missing) snippets and create a pull request!
