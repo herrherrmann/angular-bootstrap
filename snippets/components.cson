@@ -41,6 +41,12 @@
             """
 
 
+  # Alert
+  'UI-Bootstrap Alert':
+    'prefix': 'uib-alert'
+    'body': '<uib-alert type="${1:success|info|warning|danger}" close="${2:closeAlert()}">${3:Content}</uib-alert>'
+
+
   # Button
   'UI-Bootstrap Button':
     'prefix': 'uib-btn'

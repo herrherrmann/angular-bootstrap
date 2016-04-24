@@ -3,7 +3,7 @@ Atom Snippets for [Angular UI Bootstrap](https://angular-ui.github.io/bootstrap)
 
 # Progress
 - [x] Accordion
-- [ ] Alert
+- [x] Alert
 - [x] Button
 - [ ] Carousel
 - [x] Collapse

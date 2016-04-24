@@ -32,6 +32,9 @@
 
       ## Properties for individual use
 
+      # General
+      'template-url'
+
       # Buttons
       'uib-btn-radio'
       'uib-uncheckable'
