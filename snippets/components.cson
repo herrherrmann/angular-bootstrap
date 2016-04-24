@@ -44,7 +44,7 @@
   # Alert
   'UI-Bootstrap Alert':
     'prefix': 'uib-alert'
-    'body': '<uib-alert type="${1:success|info|warning|danger}" close="${2:closeAlert()}">${3:Content}</uib-alert>'
+    'body': '<uib-alert type="${1:success|info|warning|danger}" close="${2:closeAlert}()">${3:Content}</uib-alert>'
 
 
   # Button
@@ -55,6 +55,10 @@
                 ${5:Press Me Hard}
             </button>
             """
+
+  'UI-Bootstrap Button Checkbox (Property)':
+    'prefix': 'uib-btn-checkbox'
+    'body': 'uib-btn-checkbox btn-checkbox-true="${1:1}" btn-checkbox-false="${2:0}"'
 
   'UI-Bootstrap Button Group':
     'prefix': 'uib-btn-group'
@@ -74,9 +78,9 @@
             </div>
             """
 
-  'UI-Bootstrap Button Checkbox (Property)':
-    'prefix': 'btn-checkbox-'
-    'body': 'btn-checkbox-${1:true|false}="$2"'
+  'UI-Bootstrap Button Radio (Property)':
+    'prefix': 'uib-btn-radio'
+    'body': 'uib-btn-radio="${1:value}"'
 
 
   # Collapse
@@ -87,3 +91,13 @@
                 ${2:Content}
             </div>
             """
+
+
+  # Tooltip
+  'UI-Bootstrap Tooltip':
+    'prefix': 'uib-tooltip'
+    'body': 'uib-tooltip="${1:A Tooltip.}" tooltip-placement="${2:top|top-left|top-right|bottom|bottom-left|bottom-right|left|left-top|left-bottom|right|right-top|right-bottom}"'
+
+  'UI-Bootstrap Tooltip (More Properties)':
+    'prefix': 'uib-tooltip-'
+    'body': 'uib-tooltip="${1:A Tooltip.}" tooltip-placement="${2:top|top-left|top-right|bottom|bottom-left|bottom-right|left|left-top|left-bottom|right|right-top|right-bottom}" tooltip-enable="${3:true|false}" tooltip-is-open="${4:isOpen}" tooltip-trigger="${5:mouseenter|click|outsideClick|focus|none}" tooltip-animation="${6:true|false}" tooltip-append-to-body="${7:true|false}" tooltip-popup-delay="${8:1000}" tooltip-popup-close-delay="${9:1000}"'

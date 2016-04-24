@@ -20,7 +20,7 @@ Atom Snippets for [Angular UI Bootstrap](https://angular-ui.github.io/bootstrap)
 - [ ] Rating
 - [ ] Tabs
 - [ ] Timepicker
-- [ ] Tooltip
+- [x] Tooltip
 - [ ] Typeahead
 - [ ] Documentation
 

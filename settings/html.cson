@@ -9,9 +9,10 @@
       'uib-accordion-group'
       'uib-alert'
       'uib-btn'
-      'btn-checkbox-'
+      'uib-btn-checkbox'
       'uib-btn-group'
       'uib-btn-group-radio'
+      'uib-btn-radio'
       'uib-carousel'
       'uib-collapse'
       'uib-dateparser'
@@ -28,15 +29,15 @@
       'uib-tabs'
       'uib-timepicker'
       'uib-tooltip'
+      'uib-tooltip-'
       'uib-typeahead'
 
       ## Properties for individual use
 
       # General
-      'template-url'
+      'template-url=""'
 
       # Buttons
-      'uib-btn-radio'
       'uib-uncheckable'
       'uncheckable'
     ]
