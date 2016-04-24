@@ -4,7 +4,7 @@
   'UI-Bootstrap Accordion':
     'prefix': 'uib-accordion'
     'body': """
-            <uib-accordion close-others="${1:true}">
+            <uib-accordion close-others="${1:true|false}">
                 <uib-accordion-group heading="${2:heading}">
                     ${3:content}
                 </uib-accordion-group>
@@ -14,8 +14,8 @@
   'UI-Bootstrap Accordion (All Properties)':
     'prefix': 'uib-accordion-'
     'body': """
-            <uib-accordion close-others="${1:true}">
-                <uib-accordion-group is-open="${2:foo.isOpen}" is-disabled="${3:foo.isDisabled}" panel-class="${4:panel-}" template-url="${5:my-template.html}">
+            <uib-accordion close-others="${1:true|false}">
+                <uib-accordion-group is-open="${2:foo.isOpen}" is-disabled="${3:foo.isDisabled}" panel-class="panel-${4:default|primary|success|info|warning|danger}"${5: template-url="my-template.html"}>
                     <uib-accordion-heading>
                         ${6:heading}
                     </uib-accordion-heading>
@@ -27,7 +27,7 @@
   'UI-Bootstrap Accordion Group':
     'prefix': 'uib-accordion-group'
     'body': """
-            <uib-accordion-group heading="${1:Heading}" panel-class="${2:panel-}"${3: template-url="my-template.html"}>
+            <uib-accordion-group heading="${1:Heading}" panel-class="panel-${2:default|primary|success|info|warning|danger}"${3: template-url="my-template.html"}>
                 ${4:Content}
             </uib-accordion-group>
             """
@@ -44,7 +44,7 @@
   # Alert
   'UI-Bootstrap Alert':
     'prefix': 'uib-alert'
-    'body': '<uib-alert type="${1:success|info|warning|danger}" close="${2:closeAlert}()">${3:Content}</uib-alert>'
+    'body': '<uib-alert type="${1:success|info|warning|danger}" close="${2:closeAlert()}">${3:Content}</uib-alert>'
 
 
   # Button
