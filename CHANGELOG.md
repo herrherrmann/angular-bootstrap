@@ -1,3 +1,7 @@
+## 0.1.2
+* fix accordion snippets and consistent function use for alert snippet
+* add screenshots to the readme
+
 ## 0.1.1
 * improve button snippets
 
