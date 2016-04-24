@@ -2,28 +2,38 @@
     'editor':
         'completions': [
 
-            # Snippets
-            'uibAccordion'
-            'uibAlert'
-            'uibButton'
-            'uibCarousel'
-            'uibCollapse'
-            'uibDateparser'
-            'uibDatepicker'
-            'uibDatepickerPopup'
-            'uibDropdown'
-            'uibModal'
-            'uibPager'
-            'uibPagination'
-            'uibPopover'
-            'uibPosition'
-            'uibProgressbar'
-            'uibRating'
-            'uibTabs'
-            'uibTimepicker'
-            'uibTooltip'
-            'uibTypeahead'
-
-            # Properties
+            ## Snippets for Autocompletion
+            'uib-accordion'
+            'uib-accordion-'
+            'uib-accordion-heading'
+            'uib-accordion-group'
+            'uib-alert'
+            'uib-btn'
+            'btn-checkbox-'
+            'uib-btn-group'
+            'uib-btn-group-radio'
+            'uib-carousel'
             'uib-collapse'
+            'uib-dateparser'
+            'uib-datepicker'
+            'uib-datepickerpopup'
+            'uib-dropdown'
+            'uib-modal'
+            'uib-pager'
+            'uib-pagination'
+            'uib-popover'
+            'uib-position'
+            'uib-progressbar'
+            'uib-rating'
+            'uib-tabs'
+            'uib-timepicker'
+            'uib-tooltip'
+            'uib-typeahead'
+
+            ## Properties for individual use
+
+            # Buttons
+            'uib-btn-radio'
+            'uib-uncheckable'
+            'uncheckable'
         ]
