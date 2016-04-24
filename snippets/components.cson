@@ -51,25 +51,29 @@
   'UI-Bootstrap Button':
     'prefix': 'uib-btn'
     'body': """
+            <button type="button" class="btn btn-${1:default|primary|success|info|warning|danger}" ng-click="${2:click()}">
+                ${3:Press Me Hard}
+            </button>
+            """
+
+  'UI-Bootstrap Button with Checkbox':
+    'prefix': 'uib-btn-checkbox'
+    'body': """
             <button type="button" class="btn btn-${1:default|primary|success|info|warning|danger}" ng-model="${2:dasModel}" uib-btn-checkbox btn-checkbox-true="${3:1}" btn-checkbox-false="${4:0}">
                 ${5:Press Me Hard}
             </button>
             """
 
-  'UI-Bootstrap Button Checkbox (Property)':
-    'prefix': 'uib-btn-checkbox'
-    'body': 'uib-btn-checkbox btn-checkbox-true="${1:1}" btn-checkbox-false="${2:0}"'
-
-  'UI-Bootstrap Button Group':
-    'prefix': 'uib-btn-group'
+  'UI-Bootstrap Button Group (Checkboxes)':
+    'prefix': 'uib-btn-group-checkbox'
     'body': """
             <div class="btn-group">
-                <label class="btn btn-${1:default|primary|success|info|warning|danger}" ng-model="${2:dasModel.first}" uib-btn-checkbox>${3:First}</label>
-                <label class="btn btn-${4:default|primary|success|info|warning|danger}" ng-model="${5:dasModel.second}" uib-btn-checkbox>${6:Second}</label>
+                <label class="btn btn-${1:default|primary|success|info|warning|danger}" uib-btn-checkbox ng-model="${2:dasModel.first}">${3:First}</label>
+                <label class="btn btn-${4:default|primary|success|info|warning|danger}" uib-btn-checkbox ng-model="${5:dasModel.second}">${6:Second}</label>
             </div>
             """
 
-  'UI-Bootstrap Button Radio-Group':
+  'UI-Bootstrap Button Group (Radios)':
     'prefix': 'uib-btn-group-radio'
     'body': """
             <div class="btn-group">
