@@ -1,3 +1,6 @@
+## 0.1.3
+* rename LICENSE to LICENSE.md
+
 ## 0.1.2
 * fix accordion snippets and consistent function use for alert snippet
 * add screenshots to the readme
