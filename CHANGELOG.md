@@ -1,3 +1,6 @@
+## 0.1.4
+* add snippets for dropdowns, modals and pagination
+
 ## 0.1.3
 * rename LICENSE to LICENSE.md
 
