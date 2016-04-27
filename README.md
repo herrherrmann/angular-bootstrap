@@ -20,7 +20,7 @@ Currently supporting UI Bootstrap Version 1.3.0+ and thus Bootstrap Version 3.0+
 - [ ] Dateparser
 - [ ] Datepicker
 - [ ] DatepickerPopup
-- [ ] Dropdown
+- [x] Dropdown
 - [x] Modal
 - [ ] Pager
 - [x] Pagination

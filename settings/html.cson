@@ -19,6 +19,7 @@
       'uib-datepicker'
       'uib-datepickerpopup'
       'uib-dropdown'
+      'uib-dropdown-split'
       'uib-modal-template'
       'uib-pager'
       'uib-pagination'

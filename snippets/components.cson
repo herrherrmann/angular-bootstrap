@@ -97,6 +97,43 @@
             """
 
 
+  # Dropdown
+  'UI-Bootstrap Dropdown':
+    'prefix': 'uib-dropdown'
+    'body': """
+            <div class="btn-group" uib-dropdown on-toggle="${1:toggledDropdown(open)}" keyboard-nav>
+                <button type="button" class="btn btn-default" uib-dropdown-toggle>
+                    ${2:Open Dropdown} <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" uib-dropdown-menu role="menu">
+                    <li role="menuitem">
+                        <a href>${3:Menu Item}</a>
+                    </li>
+                    ${4:<li class="divider"></li>}
+                </ul>
+            </div>
+            """
+
+  'UI-Bootstrap Dropdown (Split Button)':
+    'prefix': 'uib-dropdown-split'
+    'body': """
+            <div class="btn-group" uib-dropdown on-toggle="${1:toggledDropdown(open)}" keyboard-nav>
+                <button type="button" class="btn btn-default" ng-click="${2:click()}">
+                    ${3:Press Me Hard}
+                </button>
+                <button type="button" class="btn btn-default" uib-dropdown-toggle>
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" uib-dropdown-menu role="menu">
+                    <li role="menuitem">
+                        <a href>${4:Menu Item}</a>
+                    </li>
+                    ${5:<li class="divider"></li>}
+                </ul>
+            </div>
+            """
+
+
   # Modal
   'UI-Bootstrap Modal Template':
     'prefix': 'uib-modal-template'
