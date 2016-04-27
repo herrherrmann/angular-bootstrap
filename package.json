@@ -1,6 +1,6 @@
 {
   "name": "angular-bootstrap",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Snippets and autocompletions for Angular UI-Bootstrap Components.",
   "activationCommands": {
     "atom-workspace": "angular-bootstrap:toggle"
