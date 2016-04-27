@@ -11,6 +11,8 @@ In any HTML file simply start typing `uib-`. Depending on your configuration of 
 
 ![uib-accordion snippets in action](https://raw.githubusercontent.com/herrherrmann/angular-bootstrap/master/screenshots/uib-accordion-demo.gif)
 
+![uib-modal snippets in action](https://raw.githubusercontent.com/herrherrmann/angular-bootstrap/master/screenshots/uib-modal-demo.gif)
+
 # Compatibility
 
 Currently supporting UI Bootstrap Version 1.3.0+ and thus Bootstrap Version 3.0+. Other versions might work but are not tested.
