@@ -97,6 +97,57 @@
             """
 
 
+  # Modal
+  'UI-Bootstrap Modal Template':
+    'prefix': 'uib-modal-template'
+    'body': """
+            <div class="modal-header">
+                <button type="button" class="close" aria-label="Close" ng-click="$dismiss()">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title">${1:Modal Title}</h4>
+            </div>
+            <div class="modal-body">
+                ${2:Modal Body}
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-warning" type="button" ng-click="$dismiss()">
+                    Cancel
+                </button>
+                <button class="btn btn-primary" type="button" ng-click="${3:successCallback}()">
+                    ${4:OK}
+                </button>
+            </div>
+            """
+
+
+  # Pagination
+  'UI-Bootstrap Pagination':
+    'prefix': 'uib-pagination'
+    'body': """
+            <uib-pagination
+                ng-model="${1:currentPage}"
+                ng-changed="${2:changedPage}()"
+                total-items="${3:myItems.length}">
+            </uib-pagination>
+            """
+
+  'UI-Bootstrap Pagination (More Properties)':
+    'prefix': 'uib-pagination-'
+    'body': """
+            <uib-pagination
+                ng-model="${1:currentPage}"
+                ng-changed="${2:changedPage}()"
+                total-items="${3:myItems.length}"
+                items-per-page="${4:10}"
+                max-size="${5:5}"
+                rotate="${6:true|false}"
+                force-ellipses="${7:true|false}"
+                num-pages="${8:numPages}">
+            </uib-pagination>
+            """
+
+
   # Tooltip
   'UI-Bootstrap Tooltip':
     'prefix': 'uib-tooltip'
