@@ -1,11 +1,15 @@
 # Angular-Bootstrap
-Atom Snippets for [Angular UI Bootstrap](https://angular-ui.github.io/bootstrap) (Bootstrap components for AngularJS). Should work together nicely with the packages [angularjs](https://atom.io/packages/angularjs) and [atom-bootstrap3](https://atom.io/packages/atom-bootstrap3).
+Atom Snippets for [UI Bootstrap](https://angular-ui.github.io/bootstrap) (Bootstrap components for AngularJS). Should work together nicely with the packages [angularjs](https://atom.io/packages/angularjs) and [atom-bootstrap3](https://atom.io/packages/atom-bootstrap3).
 
 # Screenshots
 
 ![uib-btn snippets in action](https://raw.githubusercontent.com/herrherrmann/angular-bootstrap/master/screenshots/uib-btn-demo.gif)
 
 ![uib-accordion snippets in action](https://raw.githubusercontent.com/herrherrmann/angular-bootstrap/master/screenshots/uib-accordion-demo.gif)
+
+# Compatibility
+
+Currently supporting UI Bootstrap Version 1.3.0+ and thus Bootstrap Version 3.0+. Other versions might work but are not tested.
 
 # Progress
 - [x] Accordion
@@ -17,9 +21,9 @@ Atom Snippets for [Angular UI Bootstrap](https://angular-ui.github.io/bootstrap)
 - [ ] Datepicker
 - [ ] DatepickerPopup
 - [ ] Dropdown
-- [ ] Modal
+- [x] Modal
 - [ ] Pager
-- [ ] Pagination
+- [x] Pagination
 - [ ] Popover
 - [ ] Position
 - [ ] Progressbar
@@ -29,7 +33,8 @@ Atom Snippets for [Angular UI Bootstrap](https://angular-ui.github.io/bootstrap)
 - [x] Tooltip
 - [ ] Typeahead
 - [ ] Documentation
+- [ ] JS Snippets (e.g. for typical modal settings and callbacks)
 
 # Contribute
 
-Feel free to add (missing) snippets and create a pull request!
+If you encounter an error or just want to improve the package, just open an [issue](https://github.com/herrherrmann/angular-bootstrap/issues) or directly create a pull request! When adding snippets, please make sure to use senseful examples (that's usually a mix of the official [Angular UI Bootstrap Reference](https://angular-ui.github.io/bootstrap) and the [Bootstrap Reference](http://getbootstrap.com/)).
