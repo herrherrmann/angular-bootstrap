@@ -90,11 +90,7 @@
 	# Collapse
 	'UI-Bootstrap Collapse':
 		'prefix': 'uib-collapse'
-		'body': """
-				<div uib-collapse="${1:isCollapsed}">
-					${2:Content}
-				</div>
-				"""
+		'body': 'uib-collapse="${1:isCollapsed}"'
 
 
 	# Dropdown
