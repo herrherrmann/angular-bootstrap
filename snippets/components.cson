@@ -4,41 +4,41 @@
 	'UI-Bootstrap Accordion':
 		'prefix': 'uib-accordion'
 		'body': """
-		        <uib-accordion close-others="${1:true|false}">
-		            <uib-accordion-group heading="${2:heading}">
-		                ${3:content}
-		            </uib-accordion-group>
-		        </uib-accordion>
-		        """
+				<uib-accordion close-others="${1:true|false}">
+					<uib-accordion-group heading="${2:heading}">
+						${3:content}
+					</uib-accordion-group>
+				</uib-accordion>
+				"""
 
 	'UI-Bootstrap Accordion (All Properties)':
 		'prefix': 'uib-accordion-'
 		'body': """
-		        <uib-accordion close-others="${1:true|false}">
-		            <uib-accordion-group is-open="${2:foo.isOpen}" is-disabled="${3:foo.isDisabled}" panel-class="panel-${4:default|primary|success|info|warning|danger}"${5: template-url="my-template.html"}>
-		                <uib-accordion-heading>
-		                    ${6:heading}
-		                </uib-accordion-heading>
-		                ${7:content}
-		            </uib-accordion-group>
-		        </uib-accordion>
-		        """
+				<uib-accordion close-others="${1:true|false}">
+					<uib-accordion-group is-open="${2:foo.isOpen}" is-disabled="${3:foo.isDisabled}" panel-class="panel-${4:default|primary|success|info|warning|danger}"${5: template-url="my-template.html"}>
+						<uib-accordion-heading>
+							${6:heading}
+						</uib-accordion-heading>
+						${7:content}
+					</uib-accordion-group>
+				</uib-accordion>
+				"""
 
 	'UI-Bootstrap Accordion Group':
 		'prefix': 'uib-accordion-group'
 		'body': """
-		        <uib-accordion-group heading="${1:Heading}" panel-class="panel-${2:default|primary|success|info|warning|danger}"${3: template-url="my-template.html"}>
-		            ${4:Content}
-		        </uib-accordion-group>
-		        """
+				<uib-accordion-group heading="${1:Heading}" panel-class="panel-${2:default|primary|success|info|warning|danger}"${3: template-url="my-template.html"}>
+					${4:Content}
+				</uib-accordion-group>
+				"""
 
 	'UI-Bootstrap Accordion Heading':
 		'prefix': 'uib-accordion-heading'
 		'body': """
-		        <uib-accordion-heading>
-		            ${1:My Heading}
-		        </uib-accordion-heading>
-		        """
+				<uib-accordion-heading>
+					${1:My Heading}
+				</uib-accordion-heading>
+				"""
 
 
 	# Alert
@@ -51,36 +51,36 @@
 	'UI-Bootstrap Button':
 		'prefix': 'uib-btn'
 		'body': """
-		        <button type="button" class="btn btn-${1:default|primary|success|info|warning|danger}" ng-click="${2:click()}">
-		            ${3:Press Me Hard}
-		        </button>
-		        """
+				<button type="button" class="btn btn-${1:default|primary|success|info|warning|danger}" ng-click="${2:click()}">
+					${3:Press Me Hard}
+				</button>
+				"""
 
 	'UI-Bootstrap Button with Checkbox':
 		'prefix': 'uib-btn-checkbox'
 		'body': """
-		        <button type="button" class="btn btn-${1:default|primary|success|info|warning|danger}" ng-model="${2:dasModel}" uib-btn-checkbox btn-checkbox-true="${3:1}" btn-checkbox-false="${4:0}">
-		            ${5:Press Me Hard}
-		        </button>
-		        """
+				<button type="button" class="btn btn-${1:default|primary|success|info|warning|danger}" ng-model="${2:dasModel}" uib-btn-checkbox btn-checkbox-true="${3:1}" btn-checkbox-false="${4:0}">
+					${5:Press Me Hard}
+				</button>
+				"""
 
 	'UI-Bootstrap Button Group (Checkboxes)':
 		'prefix': 'uib-btn-group-checkbox'
 		'body': """
-		        <div class="btn-group">
-		            <label class="btn btn-${1:default|primary|success|info|warning|danger}" uib-btn-checkbox ng-model="${2:dasModel.first}">${3:First}</label>
-		            <label class="btn btn-${4:default|primary|success|info|warning|danger}" uib-btn-checkbox ng-model="${5:dasModel.second}">${6:Second}</label>
-		        </div>
-		        """
+				<div class="btn-group">
+					<label class="btn btn-${1:default|primary|success|info|warning|danger}" uib-btn-checkbox ng-model="${2:dasModel.first}">${3:First}</label>
+					<label class="btn btn-${4:default|primary|success|info|warning|danger}" uib-btn-checkbox ng-model="${5:dasModel.second}">${6:Second}</label>
+				</div>
+				"""
 
 	'UI-Bootstrap Button Group (Radios)':
 		'prefix': 'uib-btn-group-radio'
 		'body': """
-		        <div class="btn-group">
-		            <label class="btn btn-${1:default|primary|success|info|warning|danger}" ng-model="${2:dasModel}" uib-btn-radio="'${3:First}'"${4: uncheckable}>${5:First}</label>
-		            <label class="btn btn-${6:default|primary|success|info|warning|danger}" ng-model="${2:dasModel}" uib-btn-radio="'${7:Second}'"${4: uncheckable}>${8:Second}</label>
-		        </div>
-		        """
+				<div class="btn-group">
+					<label class="btn btn-${1:default|primary|success|info|warning|danger}" ng-model="${2:dasModel}" uib-btn-radio="'${3:First}'"${4: uncheckable}>${5:First}</label>
+					<label class="btn btn-${6:default|primary|success|info|warning|danger}" ng-model="${2:dasModel}" uib-btn-radio="'${7:Second}'"${4: uncheckable}>${8:Second}</label>
+				</div>
+				"""
 
 	'UI-Bootstrap Button Radio (Property)':
 		'prefix': 'uib-btn-radio'
@@ -91,107 +91,109 @@
 	'UI-Bootstrap Collapse':
 		'prefix': 'uib-collapse'
 		'body': """
-		        <div uib-collapse="${1:isCollapsed}">
-		            ${2:Content}
-		        </div>
-		        """
+				<div uib-collapse="${1:isCollapsed}">
+					${2:Content}
+				</div>
+				"""
 
 
 	# Dropdown
 	'UI-Bootstrap Dropdown':
 		'prefix': 'uib-dropdown'
 		'body': """
-		        <div class="btn-group" uib-dropdown on-toggle="${1:toggledDropdown(open)}" keyboard-nav>
-		            <button type="button" class="btn btn-default" uib-dropdown-toggle>
-		                ${2:Open Dropdown} <span class="caret"></span>
-		            </button>
-		            <ul class="dropdown-menu" uib-dropdown-menu role="menu">
-		                <li role="menuitem">
-		                    <a href>${3:Menu Item}</a>
-		                </li>
-		                ${4:<li class="divider"></li>}
-		            </ul>
-		        </div>
-		        """
+				<div class="btn-group" uib-dropdown on-toggle="${1:toggledDropdown(open)}" keyboard-nav>
+					<button type="button" class="btn btn-default" uib-dropdown-toggle>
+						${2:Open Dropdown} <span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" uib-dropdown-menu role="menu">
+						<li role="menuitem">
+							<a href>${3:Menu Item}</a>
+						</li>
+						${4:<li class="divider"></li>}
+					</ul>
+				</div>
+				"""
 
 	'UI-Bootstrap Dropdown (Split Button)':
 		'prefix': 'uib-dropdown-split'
 		'body': """
-		        <div class="btn-group" uib-dropdown on-toggle="${1:toggledDropdown(open)}" keyboard-nav>
-		            <button type="button" class="btn btn-default" ng-click="${2:click()}">
-		                ${3:Press Me Hard}
-		            </button>
-		            <button type="button" class="btn btn-default" uib-dropdown-toggle>
-		                <span class="caret"></span>
-		            </button>
-		            <ul class="dropdown-menu" uib-dropdown-menu role="menu">
-		                <li role="menuitem">
-		                    <a href>${4:Menu Item}</a>
-		                </li>
-		                ${5:<li class="divider"></li>}
-		            </ul>
-		        </div>
-		        """
+				<div class="btn-group" uib-dropdown on-toggle="${1:toggledDropdown(open)}" keyboard-nav>
+					<button type="button" class="btn btn-default" ng-click="${2:click()}">
+						${3:Press Me Hard}
+					</button>
+					<button type="button" class="btn btn-default" uib-dropdown-toggle>
+						<span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" uib-dropdown-menu role="menu">
+						<li role="menuitem">
+							<a href>${4:Menu Item}</a>
+						</li>
+						${5:<li class="divider"></li>}
+					</ul>
+				</div>
+				"""
 
 
 	# Modal
 	'UI-Bootstrap Modal Template':
 		'prefix': 'uib-modal-template'
 		'body': """
-		        <div class="modal-header">
-		            <button type="button" class="close" aria-label="Close" ng-click="$dismiss()">
-		                <span aria-hidden="true">&times;</span>
-		            </button>
-		            <h4 class="modal-title">${1:Modal Title}</h4>
-		        </div>
-		        <div class="modal-body">
-		            ${2:Modal Body}
-		        </div>
-		        <div class="modal-footer">
-		            <button class="btn btn-warning" type="button" ng-click="$dismiss()">
-		                Cancel
-		            </button>
-		            <button class="btn btn-primary" type="button" ng-click="${3:successCallback}()">
-		                ${4:OK}
-		            </button>
-		        </div>
-		        """
+				<div class="modal-header">
+					<button type="button" class="close" aria-label="Close" ng-click="$dismiss()">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title">${1:Modal Title}</h4>
+				</div>
+				<div class="modal-body">
+					${2:Modal Body}
+				</div>
+				<div class="modal-footer">
+					<button class="btn btn-warning" type="button" ng-click="$dismiss()">
+						Cancel
+					</button>
+					<button class="btn btn-primary" type="button" ng-click="${3:successCallback}()">
+						${4:OK}
+					</button>
+				</div>
+				"""
 
 
 	# Pagination
 	'UI-Bootstrap Pagination':
 		'prefix': 'uib-pagination'
 		'body': """
-		        <uib-pagination
-		            ng-model="${1:currentPage}"
-		            ng-changed="${2:changedPage}()"
-		            total-items="${3:myItems.length}">
-		        </uib-pagination>
-		        """
+				<uib-pagination
+					ng-model="${1:currentPage}"
+					ng-changed="${2:changedPage}()"
+					total-items="${3:myItems.length}">
+				</uib-pagination>
+				"""
 
 	'UI-Bootstrap Pagination (More Properties)':
 		'prefix': 'uib-pagination-'
 		'body': """
-		        <uib-pagination
-		            ng-model="${1:currentPage}"
-		            ng-changed="${2:changedPage}()"
-		            total-items="${3:myItems.length}"
-		            items-per-page="${4:10}"
-		            max-size="${5:5}"
-		            rotate="${6:true|false}"
-		            force-ellipses="${7:true|false}"
-		            num-pages="${8:numPages}">
-		        </uib-pagination>
-		        """
+				<uib-pagination
+					ng-model="${1:currentPage}"
+					ng-changed="${2:changedPage}()"
+					total-items="${3:myItems.length}"
+					items-per-page="${4:10}"
+					max-size="${5:5}"
+					rotate="${6:true|false}"
+					force-ellipses="${7:true|false}"
+					num-pages="${8:numPages}">
+				</uib-pagination>
+				"""
 
-    # Popover
-    'UI-Bootstrap Popover':
-    	'prefix': 'uib-popover'
-    	'body': 'uib-popover="${1:Popover Text}" popover-placement="${2:top|top-left|top-right|bottom|bottom-left|bottom-right|left|left-top|left-bottom|right|right-top|right-bottom}"'
 
-    'UI-Bootstrap Popover (More Properties)':
-    	'prefix': 'uib-popover-'
-    	'body': 'uib-popover="${1:Popover Text}" popover-title="${2:My Title}" popover-placement="${3:top|top-left|top-right|bottom|bottom-left|bottom-right|left|left-top|left-bottom|right|right-top|right-bottom}" popover-is-open="${4:isPopoverOpen}" popover-trigger="${5:click|mouseenter|outsideClick|focus|none}"'
+	# Popover
+	'UI-Bootstrap Popover':
+		'prefix': 'uib-popover'
+		'body': 'uib-popover="${1:Popover Text}" popover-placement="${2:top|top-left|top-right|bottom|bottom-left|bottom-right|left|left-top|left-bottom|right|right-top|right-bottom}"'
+
+	'UI-Bootstrap Popover (More Properties)':
+		'prefix': 'uib-popover-'
+		'body': 'uib-popover="${1:Popover Text}" popover-title="${2:My Title}" popover-placement="${3:top|top-left|top-right|bottom|bottom-left|bottom-right|left|left-top|left-bottom|right|right-top|right-bottom}" popover-is-open="${4:isPopoverOpen}" popover-trigger="${5:click|mouseenter|outsideClick|focus|none}"'
+
 
 	# Tooltip
 	'UI-Bootstrap Tooltip':
