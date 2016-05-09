@@ -1,45 +1,45 @@
 '.text.html, .text.css, .source.js':
-  'editor':
-    'completions': [
+	'editor':
+		'completions': [
 
-      ## Snippets for Autocompletion
-      'uib-accordion'
-      'uib-accordion-'
-      'uib-accordion-heading'
-      'uib-accordion-group'
-      'uib-alert'
-      'uib-btn'
-      'uib-btn-checkbox'
-      'uib-btn-group-checkbox'
-      'uib-btn-group-radio'
-      'uib-btn-radio'
-      'uib-carousel'
-      'uib-collapse'
-      'uib-dateparser'
-      'uib-datepicker'
-      'uib-datepickerpopup'
-      'uib-dropdown'
-      'uib-dropdown-split'
-      'uib-modal-template'
-      'uib-pager'
-      'uib-pagination'
-      'uib-pagination-'
-      'uib-popover'
-      'uib-position'
-      'uib-progressbar'
-      'uib-rating'
-      'uib-tabs'
-      'uib-timepicker'
-      'uib-tooltip'
-      'uib-tooltip-'
-      'uib-typeahead'
+			## Snippets for Autocompletion
+			'uib-accordion'
+			'uib-accordion-'
+			'uib-accordion-heading'
+			'uib-accordion-group'
+			'uib-alert'
+			'uib-btn'
+			'uib-btn-checkbox'
+			'uib-btn-group-checkbox'
+			'uib-btn-group-radio'
+			'uib-btn-radio'
+			'uib-carousel'
+			'uib-collapse'
+			'uib-dateparser'
+			'uib-datepicker'
+			'uib-datepickerpopup'
+			'uib-dropdown'
+			'uib-dropdown-split'
+			'uib-modal-template'
+			'uib-pager'
+			'uib-pagination'
+			'uib-pagination-'
+			'uib-popover'
+			'uib-position'
+			'uib-progressbar'
+			'uib-rating'
+			'uib-tabs'
+			'uib-timepicker'
+			'uib-tooltip'
+			'uib-tooltip-'
+			'uib-typeahead'
 
-      ## Properties for individual use
+			## Properties for individual use
 
-      # General
-      'template-url=""'
+			# General
+			'template-url=""'
 
-      # Buttons
-      'uib-uncheckable'
-      'uncheckable'
-    ]
+			# Buttons
+			'uib-uncheckable'
+			'uncheckable'
+		]
