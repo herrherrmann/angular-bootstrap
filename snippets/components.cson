@@ -195,6 +195,55 @@
 		'body': 'uib-popover="${1:Popover Text}" popover-title="${2:My Title}" popover-placement="${3:top|top-left|top-right|bottom|bottom-left|bottom-right|left|left-top|left-bottom|right|right-top|right-bottom}" popover-is-open="${4:isPopoverOpen}" popover-trigger="${5:click|mouseenter|outsideClick|focus|none}"'
 
 
+	# Tabs
+	'UI-Bootstrap Tabset':
+		'prefix': 'uib-tabset'
+		'body': """
+				<uib-tabset>
+					<uib-tab heading="${1:Tab Heading}" index="${2:0}">
+						${3:Tab Content}
+					</uib-tab>
+				</uib-tabset>
+				"""
+
+	'UI-Bootstrap Tabset (More Properties)':
+		'prefix': 'uib-tabset-'
+		'body': """
+				<uib-tabset active="${1:0}" type="${2:tabs|pills}" vertical="${3:true|false}" justified="${4:true|false}">
+					<uib-tab heading="${5:Tab Heading}" index="${6:0}">
+						${7:Tab Content}
+					</uib-tab>
+				</uib-tabset>
+				"""
+
+	'UI-Bootstrap Tab':
+		'prefix': 'uib-tab'
+		'body': """
+				<uib-tab heading="${1:Tab Heading}" index="${2:0}">
+					${3:Tab Content}
+				</uib-tab>
+				"""
+
+	'UI-Bootstrap Tab (More Properties)':
+		'prefix': 'uib-tab-'
+		'body': """
+				<uib-tab heading="${1:Tab Heading" index="${2:0}" active="${3:tab.active}" disable="${4:tab.disabled}" select="${5:tabSelected()}" deselect="${6:tabDeselected()}">
+					<uib-tab-heading>
+						${7:Tab Heading}
+					</uib-tab-heading>
+					${8: Tab Content}
+				</uib-tab>
+				"""
+
+	'UI-Bootstrap Tab Heading':
+		'prefix': 'uib-tab-heading'
+		'body': """
+				<uib-tab-heading>
+					${1:Tab Heading}
+				</uib-tab-heading>
+				"""
+
+
 	# Tooltip
 	'UI-Bootstrap Tooltip':
 		'prefix': 'uib-tooltip'

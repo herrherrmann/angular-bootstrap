@@ -30,11 +30,11 @@ Currently supporting UI Bootstrap Version 1.3.0+ and thus Bootstrap Version 3.0+
 - [x] Modal
 - [ ] Pager
 - [x] Pagination
-- [ ] Popover
+- [x] Popover
 - [ ] Position
 - [ ] Progressbar
 - [ ] Rating
-- [ ] Tabs
+- [x] Tabs
 - [ ] Timepicker
 - [x] Tooltip
 - [ ] Typeahead
