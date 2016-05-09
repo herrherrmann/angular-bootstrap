@@ -190,6 +190,21 @@
 		'prefix': 'uib-popover-'
 		'body': 'uib-popover="${1:Popover Text}" popover-title="${2:My Title}" popover-placement="${3:top|top-left|top-right|bottom|bottom-left|bottom-right|left|left-top|left-bottom|right|right-top|right-bottom}" popover-is-open="${4:isPopoverOpen}" popover-trigger="${5:click|mouseenter|outsideClick|focus|none}"'
 
+	# This template is vanilla bootstrap and maybe does not belong here.
+	# However, it's useful when writing own popover templates.
+	'UI-Bootstrap Popover Template':
+		'prefix': 'uib-popover-template'
+		'body': """
+				<div class="popover" role="tooltip">
+					<div class="arrow"></div>
+					<h3 class="popover-title">
+						${1:Popover Title}
+					</h3>
+					<div class="popover-content">
+						${2:Popover Content}
+					</div>
+				</div>
+				"""
 
 	# Tabs
 	'UI-Bootstrap Tabset':
