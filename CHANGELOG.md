@@ -1,8 +1,12 @@
 ## 0.1.4
-* add snippets for dropdowns, modals and pagination
+* add snippets for tabsets/tabs, popovers
+* add uib-popover-template
+* jump to the end of the (child) element after last tab/enter press
+* do not auto-complete to full div element for uib-collapse (but only to property)
 
 ## 0.1.3
 * rename LICENSE to LICENSE.md
+* add snippets for dropdowns, modals, pagination
 
 ## 0.1.2
 * fix accordion snippets and consistent function use for alert snippet
