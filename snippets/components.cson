@@ -206,6 +206,35 @@
 				</div>
 				"""
 
+
+	# Progressbar
+	'UI-Bootstrap Progressbar':
+		'prefix': 'uib-progressbar'
+		'body': """
+				<uib-progressbar value="${1:50}" max="${2:100}" class="${3:progress-striped active}" type="${4:success|info|warning|danger}" animate="${5:true|false}">
+					${1:50}%
+				</uib-progressbar>$6
+				"""
+
+	'UI-Bootstrap Progressbar (Stacked)':
+		'prefix': 'uib-progressbar-stacked'
+		'body': """
+				<uib-progress>
+					<uib-bar value="${1:bar.value}" type="${2:success|info|warning|danger}">
+						<span ng-hide="${1:bar.value} < 5">{{${1:bar.value}}}%</span>
+					</uib-bar>$3
+				</uib-progress>$4
+				"""
+
+	'UI-Bootstrap Bar (for Progressbars)':
+		'prefix': 'uib-bar'
+		'body': """
+				<uib-bar value="${1:50}" type="${2:success|info|warning|danger}">
+					${1:50}%
+				</uib-bar>$3
+				"""
+
+
 	# Tabs
 	'UI-Bootstrap Tabset':
 		'prefix': 'uib-tabset'

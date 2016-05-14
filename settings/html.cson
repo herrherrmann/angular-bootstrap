@@ -28,6 +28,8 @@
 			'uib-popover-'
 			'uib-position'
 			'uib-progressbar'
+			'uib-progressbar-stacked'
+			'uib-bar'
 			'uib-rating'
 			'uib-tabset'
 			'uib-tab'
