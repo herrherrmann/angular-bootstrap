@@ -1,3 +1,7 @@
+## 0.1.5
+* add snippets for progressbar
+* more intelligent jumping to the last element after last tab/enter press
+
 ## 0.1.4
 * add snippets for tabsets/tabs, popovers
 * add uib-popover-template
