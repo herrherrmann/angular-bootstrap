@@ -1,5 +1,5 @@
 ## 0.1.6
-* add snippets for datepicker and datepicker-popup
+* add snippets for datepicker, datepicker-popup and timepicker
 * first javascript snippet: uib-datepicker-options
 * limit html auto-completion to html files
 

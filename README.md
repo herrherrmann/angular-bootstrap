@@ -27,7 +27,7 @@ Currently supporting UI Bootstrap Version 1.3.0+ and thus Bootstrap Version 3.0+
 - [x] Collapse
 - [ ] Dateparser
 - [x] Datepicker
-- [ ] DatepickerPopup
+- [x] DatepickerPopup
 - [x] Dropdown
 - [x] Modal
 - [ ] Pager
@@ -37,7 +37,7 @@ Currently supporting UI Bootstrap Version 1.3.0+ and thus Bootstrap Version 3.0+
 - [x] Progressbar
 - [ ] Rating
 - [x] Tabs
-- [ ] Timepicker
+- [x] Timepicker
 - [x] Tooltip
 - [ ] Typeahead
 - [ ] Documentation
