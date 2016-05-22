@@ -1,0 +1,5 @@
+'.source.js':
+	'editor':
+		'completions': [
+			'uib-datepicker-options'
+		]
