@@ -1,7 +1,6 @@
-'.text.html, .text.css, .source.js':
+'.text.html':
 	'editor':
 		'completions': [
-
 			## Snippets for Autocompletion
 			'uib-accordion'
 			'uib-accordion-'
