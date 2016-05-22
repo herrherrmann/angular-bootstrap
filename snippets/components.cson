@@ -304,6 +304,14 @@
 				"""
 
 
+	# Timepicker
+	'UI-Bootstrap Timepicker':
+		'prefix': 'uib-timepicker'
+		'body': """
+				<uib-timepicker ng-model="${1:myTime}" ng-change="${2:changedTime()}" hour-step="${3:1}" minute-step="${4:1}" show-seconds="${5:false}" show-meridian="${6:true}" show-spinners="${7:true}"></uib-timepicker>$8
+				"""
+
+
 	# Tooltip
 	'UI-Bootstrap Tooltip':
 		'prefix': 'uib-tooltip'
