@@ -26,7 +26,7 @@ Currently supporting UI Bootstrap Version 1.3.0+ and thus Bootstrap Version 3.0+
 - [ ] Carousel
 - [x] Collapse
 - [ ] Dateparser
-- [ ] Datepicker
+- [x] Datepicker
 - [ ] DatepickerPopup
 - [x] Dropdown
 - [x] Modal
@@ -41,7 +41,7 @@ Currently supporting UI Bootstrap Version 1.3.0+ and thus Bootstrap Version 3.0+
 - [x] Tooltip
 - [ ] Typeahead
 - [ ] Documentation
-- [ ] JS Snippets (e.g. for typical modal settings and callbacks)
+- [ ] JS Snippets (e.g. modal settings, datepicker-options and callbacks)
 
 # Contribute
 

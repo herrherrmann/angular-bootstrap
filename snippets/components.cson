@@ -93,6 +93,26 @@
 		'body': 'uib-collapse="${1:isCollapsed}"'
 
 
+	# Datepicker
+	'UI-Bootstrap Datepicker':
+		'prefix': 'uib-datepicker'
+		'body': '<uib-datepicker ng-model="${1:myDate}" datepicker-options="${2:datepickerOptions}"></uib-datepicker>'
+
+
+	# Datepicker Popup
+	'UI-Bootstrap Datepicker Popup':
+		'prefix': 'uib-datepicker-popup'
+		'body': """
+				<input type="text" class="form-control" uib-datepicker-popup="${1:yyyy-MM-dd}" datepicker-options="${2:datepickerOptions}" ng-model="${3:myDate}" is-open="${4:isDatepickerOpen}">
+				"""
+
+	'UI-Bootstrap Datepicker Popup (More Properties)':
+		'prefix': 'uib-datepicker-popup-'
+		'body': """
+				<input type="text" class="form-control" uib-datepicker-popup="${1:yyyy-MM-dd}" datepicker-options="${2:datepickerOptions}" ng-model="${3:myDate}" is-open="${4:isDatepickerOpen}" current-text="${5:Today}" clear-text="${6:Clear}" close-text="${7:Done}" close-on-date-selection="${8:true}" on-open-focus="${9:true}" show-button-bar="${10:true}" popup-placement="${11:top|top-left|top-right|bottom|bottom-left|bottom-right|left|left-top|left-bottom|right|right-top|right-bottom}">
+				"""
+
+
 	# Dropdown
 	'UI-Bootstrap Dropdown':
 		'prefix': 'uib-dropdown'
