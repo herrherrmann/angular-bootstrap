@@ -96,20 +96,20 @@
 	# Datepicker
 	'UI-Bootstrap Datepicker':
 		'prefix': 'uib-datepicker'
-		'body': '<uib-datepicker ng-model="${1:myDate}" datepicker-options="${2:datepickerOptions}"></uib-datepicker>'
+		'body': '<uib-datepicker ng-model="${1:myDate}" datepicker-options="${2:datepickerOptions}"></uib-datepicker>$3'
 
 
 	# Datepicker Popup
 	'UI-Bootstrap Datepicker Popup':
 		'prefix': 'uib-datepicker-popup'
 		'body': """
-				<input type="text" class="form-control" uib-datepicker-popup="${1:yyyy-MM-dd}" datepicker-options="${2:datepickerOptions}" ng-model="${3:myDate}" is-open="${4:isDatepickerOpen}">
+				<input type="text" class="form-control" uib-datepicker-popup="${1:yyyy-MM-dd}" datepicker-options="${2:datepickerOptions}" ng-model="${3:myDate}" is-open="${4:isDatepickerOpen}">$5
 				"""
 
 	'UI-Bootstrap Datepicker Popup (More Properties)':
 		'prefix': 'uib-datepicker-popup-'
 		'body': """
-				<input type="text" class="form-control" uib-datepicker-popup="${1:yyyy-MM-dd}" datepicker-options="${2:datepickerOptions}" ng-model="${3:myDate}" is-open="${4:isDatepickerOpen}" current-text="${5:Today}" clear-text="${6:Clear}" close-text="${7:Done}" close-on-date-selection="${8:true}" on-open-focus="${9:true}" show-button-bar="${10:true}" popup-placement="${11:top|top-left|top-right|bottom|bottom-left|bottom-right|left|left-top|left-bottom|right|right-top|right-bottom}">
+				<input type="text" class="form-control" uib-datepicker-popup="${1:yyyy-MM-dd}" datepicker-options="${2:datepickerOptions}" ng-model="${3:myDate}" is-open="${4:isDatepickerOpen}" current-text="${5:Today}" clear-text="${6:Clear}" close-text="${7:Done}" close-on-date-selection="${8:true}" on-open-focus="${9:true}" show-button-bar="${10:true}" popup-placement="${11:top|top-left|top-right|bottom|bottom-left|bottom-right|left|left-top|left-bottom|right|right-top|right-bottom}">$12
 				"""
 
 
@@ -164,13 +164,13 @@
 					${2:Modal Body}
 				</div>
 				<div class="modal-footer">
-					<button class="btn btn-warning" type="button" ng-click="$dismiss()">
+					<button class="btn btn-default" type="button" ng-click="$dismiss()">
 						Cancel
 					</button>
 					<button class="btn btn-primary" type="button" ng-click="${3:successCallback}()">
 						${4:OK}
 					</button>
-				</div>
+				</div>$5
 				"""
 
 
@@ -204,11 +204,11 @@
 	# Popover
 	'UI-Bootstrap Popover':
 		'prefix': 'uib-popover'
-		'body': 'uib-popover="${1:Popover Text}" popover-placement="${2:top|top-left|top-right|bottom|bottom-left|bottom-right|left|left-top|left-bottom|right|right-top|right-bottom}"'
+		'body': 'uib-popover="${1:Popover Content}" popover-placement="${2:top|top-left|top-right|bottom|bottom-left|bottom-right|left|left-top|left-bottom|right|right-top|right-bottom}"'
 
 	'UI-Bootstrap Popover (More Properties)':
 		'prefix': 'uib-popover-'
-		'body': 'uib-popover="${1:Popover Text}" popover-title="${2:My Title}" popover-placement="${3:top|top-left|top-right|bottom|bottom-left|bottom-right|left|left-top|left-bottom|right|right-top|right-bottom}" popover-is-open="${4:isPopoverOpen}" popover-trigger="${5:click|mouseenter|outsideClick|focus|none}"'
+		'body': 'uib-popover="${1:Popover Content}" popover-title="${2:Popover Title}" popover-placement="${3:top|top-left|top-right|bottom|bottom-left|bottom-right|left|left-top|left-bottom|right|right-top|right-bottom}" popover-is-open="${4:isPopoverOpen}" popover-trigger="${5:click|mouseenter|outsideClick|focus|none}"'
 
 	# This template is vanilla bootstrap and maybe does not belong here.
 	# However, it's useful when writing own popover templates.
