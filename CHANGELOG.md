@@ -1,3 +1,9 @@
+## 0.1.6
+* add snippets for datepicker and datepicker-popup
+* first javascript snippet: uib-datepicker-options
+* limit html auto-completion to html files
+
+
 ## 0.1.5
 * add snippets for progressbar
 * more intelligent jumping to the last element after last tab/enter press
