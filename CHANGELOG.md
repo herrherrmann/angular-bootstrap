@@ -1,5 +1,6 @@
 ## 0.1.7
-* add snippets for pager, rating
+* add snippets for pager, rating and url-template
+* minor fixes (all callback function braces are now inside the selection)
 
 ## 0.1.6
 * add snippets for datepicker, datepicker-popup and timepicker
