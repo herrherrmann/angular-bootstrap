@@ -22,6 +22,7 @@
 			'uib-dropdown-split'
 			'uib-modal-template'
 			'uib-pager'
+			'uib-pager-'
 			'uib-pagination'
 			'uib-pagination-'
 			'uib-popover'
