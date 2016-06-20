@@ -1,5 +1,5 @@
 ## 0.1.7
-* add snippets for pager
+* add snippets for pager, rating
 
 ## 0.1.6
 * add snippets for datepicker, datepicker-popup and timepicker

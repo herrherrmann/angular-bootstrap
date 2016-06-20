@@ -35,7 +35,7 @@ Currently supporting UI Bootstrap Version 1.3.0+ and thus Bootstrap Version 3.0+
 - [x] Popover
 - [ ] Position
 - [x] Progressbar
-- [ ] Rating
+- [x] Rating
 - [x] Tabs
 - [x] Timepicker
 - [x] Tooltip

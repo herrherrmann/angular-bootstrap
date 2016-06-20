@@ -269,6 +269,15 @@
 				"""
 
 
+	# Rating
+	'UI-Bootstrap Rating':
+		'prefix': 'uib-rating'
+		'body': """
+				<uib-rating ng-model="${1:rating}" max="${2:5}" state-on="'${3:glyphicon-ok-sign}'" state-off="'${4:glyphicon-ok-circle}'" read-only="${5:false}" on-hover="${6:hoverRating(value)}" on-leave="${7:leftRating()}"></uib-rating>
+				<span class="label">{{${1:rating}}}</span>
+				"""
+
+
 	# Tabs
 	'UI-Bootstrap Tabset':
 		'prefix': 'uib-tabset'
