@@ -1,16 +1,17 @@
 '.source.js':
 
 	'UI-Bootstrap Datepicker Options':
-		'prefix': 'uib-datepicker-options'
-		'body': """
-		        {
-		            datepickerMode: ${1:'day|month|year'},
-		            showWeeks: ${2:true},
-		            startingDay: ${3:0}, // (0=Sunday, ..., 6=Saturday)
-		            minDate: ${4:null}, // must be JS Date
-		            maxDate: ${5:null}, // must be JS Date
-		            initDate: ${6:null}, // must be JS Date
-		            customClass: ${7:getCustomClass},
-		            dateDisabled: ${8:isDateDisabled}
-		        }
-		        """
+		prefix: 'uib-datepicker-options'
+		body:
+			"""
+			{
+				datepickerMode: ${1:'day|month|year'},
+				showWeeks: ${2:true},
+				startingDay: ${3:0}, // (0=Sunday, ..., 6=Saturday)
+				minDate: ${4:null}, // must be JS Date
+				maxDate: ${5:null}, // must be JS Date
+				initDate: ${6:null}, // must be JS Date
+				customClass: ${7:getCustomClass},
+				dateDisabled: ${8:isDateDisabled}
+			}
+			"""
