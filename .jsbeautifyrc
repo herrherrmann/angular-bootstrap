@@ -3,11 +3,5 @@
 	"end_with_newline": true,
 	"indent_with_tabs": true,
 	"max_preserve_newlines": 2,
-	"preserve_newlines": true,
-	"cson": {
-		"indent_with_tabs": true,
-		"end_with_newline": true,
-		"max_preserve_newlines": 2,
-		"preserve_newlines": true
-	}
+	"preserve_newlines": true
 }
