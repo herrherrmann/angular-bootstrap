@@ -167,7 +167,7 @@
 					<button class="btn btn-default" type="button" ng-click="$dismiss()">
 						Cancel
 					</button>
-					<button class="btn btn-primary" type="button" ng-click="${3:successCallback}()">
+					<button class="btn btn-primary" type="button" ng-click="${3:successCallback()}">
 						${4:OK}
 					</button>
 				</div>$5
@@ -184,7 +184,7 @@
 	'UI-Bootstrap Pager (More Properties)':
 		'prefix': 'uib-pager-'
 		'body': """
-				<uib-pager ng-model="${1:currentPage}" total-items="${2:totalItems}" align="${3:true}" items-per-page="${4:10}" next-text="${5:Next »}" previous-text="${6:« Previous}" num-pages="${7:numPages}"></uib-pager>$8
+				<uib-pager ng-model="${1:currentPage}" total-items="${2:totalItems}" align="${3:true}" items-per-page="${4:10}" next-text="'${5:Next »}'" previous-text="'${6:« Previous}'" num-pages="${7:numPages}"></uib-pager>$8
 				"""
 
 
@@ -194,7 +194,7 @@
 		'body': """
 				<uib-pagination
 					ng-model="${1:currentPage}"
-					ng-changed="${2:changedPage}()"
+					ng-changed="${2:changedPage()}"
 					total-items="${3:myItems.length}">
 				</uib-pagination>$4
 				"""
@@ -204,7 +204,7 @@
 		'body': """
 				<uib-pagination
 					ng-model="${1:currentPage}"
-					ng-changed="${2:changedPage}()"
+					ng-changed="${2:changedPage()}"
 					total-items="${3:myItems.length}"
 					items-per-page="${4:10}"
 					max-size="${5:5}"
@@ -274,7 +274,7 @@
 		'prefix': 'uib-rating'
 		'body': """
 				<uib-rating ng-model="${1:rating}" max="${2:5}" state-on="'${3:glyphicon-ok-sign}'" state-off="'${4:glyphicon-ok-circle}'" read-only="${5:false}" on-hover="${6:hoverRating(value)}" on-leave="${7:leftRating()}"></uib-rating>
-				<span class="label">{{${1:rating}}}</span>
+				<span class="label">{{${1:rating}}}</span>$8
 				"""
 
 
@@ -331,18 +331,22 @@
 	'UI-Bootstrap Timepicker':
 		'prefix': 'uib-timepicker'
 		'body': """
-				<uib-timepicker ng-model="${1:myTime}" ng-change="${2:changedTime}()" hour-step="${3:1}" minute-step="${4:1}" show-seconds="${5:false}" show-meridian="${6:true}" show-spinners="${7:true}"></uib-timepicker>$8
+				<uib-timepicker ng-model="${1:myTime}" ng-change="${2:changedTime()}" hour-step="${3:1}" minute-step="${4:1}" show-seconds="${5:false}" show-meridian="${6:true}" show-spinners="${7:true}"></uib-timepicker>$8
 				"""
 
 
 	# Tooltip
 	'UI-Bootstrap Tooltip':
 		'prefix': 'uib-tooltip'
-		'body': 'uib-tooltip="${1:A Tooltip.}" tooltip-placement="${2:top|top-left|top-right|bottom|bottom-left|bottom-right|left|left-top|left-bottom|right|right-top|right-bottom}"'
+		'body': """
+				uib-tooltip="${1:A Tooltip.}" tooltip-placement="${2:top|top-left|top-right|bottom|bottom-left|bottom-right|left|left-top|left-bottom|right|right-top|right-bottom}"
+				"""
 
 	'UI-Bootstrap Tooltip (More Properties)':
 		'prefix': 'uib-tooltip-'
-		'body': 'uib-tooltip="${1:A Tooltip.}" tooltip-placement="${2:top|top-left|top-right|bottom|bottom-left|bottom-right|left|left-top|left-bottom|right|right-top|right-bottom}" tooltip-enable="${3:true|false}" tooltip-is-open="${4:isTooltipOpen}" tooltip-trigger="${5:click|mouseenter|outsideClick|focus|none}" tooltip-animation="${6:true|false}" tooltip-append-to-body="${7:true|false}" tooltip-popup-delay="${8:1000}" tooltip-popup-close-delay="${9:1000}"'
+		'body': """
+				uib-tooltip="${1:A Tooltip.}" tooltip-placement="${2:top|top-left|top-right|bottom|bottom-left|bottom-right|left|left-top|left-bottom|right|right-top|right-bottom}" tooltip-enable="${3:true|false}" tooltip-is-open="${4:isTooltipOpen}" tooltip-trigger="${5:click|mouseenter|outsideClick|focus|none}" tooltip-animation="${6:true|false}" tooltip-append-to-body="${7:true|false}" tooltip-popup-delay="${8:1000}" tooltip-popup-close-delay="${9:1000}"
+				"""
 
 
 	# General
