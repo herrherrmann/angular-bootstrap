@@ -44,7 +44,7 @@
 			## Properties for individual use
 
 			# General
-			'template-url=""'
+			'template-url'
 
 			# Buttons
 			'uib-uncheckable'

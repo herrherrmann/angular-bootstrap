@@ -343,3 +343,9 @@
 	'UI-Bootstrap Tooltip (More Properties)':
 		'prefix': 'uib-tooltip-'
 		'body': 'uib-tooltip="${1:A Tooltip.}" tooltip-placement="${2:top|top-left|top-right|bottom|bottom-left|bottom-right|left|left-top|left-bottom|right|right-top|right-bottom}" tooltip-enable="${3:true|false}" tooltip-is-open="${4:isTooltipOpen}" tooltip-trigger="${5:click|mouseenter|outsideClick|focus|none}" tooltip-animation="${6:true|false}" tooltip-append-to-body="${7:true|false}" tooltip-popup-delay="${8:1000}" tooltip-popup-close-delay="${9:1000}"'
+
+
+	# General
+	'Template URL':
+		'prefix': 'template-url'
+		'body': 'template-url="$1"$2'
