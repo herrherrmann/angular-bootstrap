@@ -376,6 +376,14 @@
 				"""
 
 
+	# Typeahead
+	'UI-Bootstrap Typeahead':
+	prefix: 'uib-typeahead'
+	body: """
+		<input type="text" ng-model="${1:selected}" uib-typeahead="${2:state} for ${2:state} in ${3:states} | filter:$viewValue | limitTo:${4:5}" class="form-control">
+		"""
+
+
 	# General
 	'Template URL':
 		prefix: 'template-url'

@@ -5,7 +5,7 @@ Atom Snippets for [UI Bootstrap](https://angular-ui.github.io/bootstrap) (Bootst
 
 In any HTML file simply start typing `uib-`. Depending on your configuration of the autocomplete-plus package you'll see auto-completions and you can insert the snippets via pressing enter and/or tab.
 
-**Tip:** Quickly toggle through important placeholders via pressing tab!
+**Tip:** Quickly toggle through placeholders via pressing tab!
 
 # Examples
 
@@ -33,15 +33,14 @@ Currently supporting UI Bootstrap Version 1.3.0+ and thus Bootstrap Version 3.0+
 - [x] Pager
 - [x] Pagination
 - [x] Popover
-- [ ] Position
+- [x] Position
 - [x] Progressbar
 - [x] Rating
 - [x] Tabs
 - [x] Timepicker
 - [x] Tooltip
-- [ ] Typeahead
-- [ ] Documentation
-- [ ] JS Snippets (e.g. modal settings, datepicker-options and callbacks)
+- [x] Typeahead
+- [x] JS Snippets (e.g. modal settings, datepicker-options and callbacks)
 
 # Contribute
 
