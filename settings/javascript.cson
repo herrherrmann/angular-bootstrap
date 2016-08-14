@@ -3,4 +3,7 @@
 		completions: [
 			'$uibModal'
 			'$uibModalInstance'
+			'$uibModalProvider'
+			'$uibPosition'
+			'$uibTooltipProvider'
 		]
