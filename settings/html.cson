@@ -1,53 +1,11 @@
 '.text.html':
 	editor:
 		completions: [
-			## Snippets for Autocompletion
-			'uib-accordion'
-			'uib-accordion-'
-			'uib-accordion-heading'
-			'uib-accordion-group'
-			'uib-alert'
-			'uib-btn'
-			'uib-btn-checkbox'
-			'uib-btn-group-checkbox'
-			'uib-btn-group-radio'
-			'uib-btn-radio'
-			'uib-carousel'
-			'uib-slide'
-			'uib-collapse'
-			'uib-dateparser'
-			'uib-datepicker'
-			'uib-datepicker-popup'
-			'uib-datepicker-popup-'
-			'uib-dropdown'
-			'uib-dropdown-split'
-			'uib-modal-template'
-			'uib-pager'
-			'uib-pager-'
-			'uib-pagination'
-			'uib-pagination-'
-			'uib-popover'
-			'uib-popover-'
-			'uib-position'
-			'uib-progressbar'
-			'uib-progressbar-stacked'
-			'uib-bar'
-			'uib-rating'
-			'uib-tabset'
-			'uib-tab'
-			'uib-tab-'
-			'uib-tab-heading'
-			'uib-timepicker'
-			'uib-tooltip'
-			'uib-tooltip-'
-			'uib-typeahead'
-
 			## Properties/Directives for individual use
-
-			# General
-			'template-url'
-
 			# Buttons
 			'uib-uncheckable'
 			'uncheckable'
+
+			# Carousel
+			'uib-slide'
 		]
