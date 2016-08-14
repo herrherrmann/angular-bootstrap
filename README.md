@@ -23,7 +23,7 @@ Currently supporting UI Bootstrap Version 1.3.0+ and thus Bootstrap Version 3.0+
 - [x] Accordion
 - [x] Alert
 - [x] Button
-- [ ] Carousel
+- [x] Carousel
 - [x] Collapse
 - [ ] Dateparser
 - [x] Datepicker

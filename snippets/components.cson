@@ -87,6 +87,33 @@
 		body: 'uib-btn-radio="${1:value}"'
 
 
+	# Carousel
+	'UI-Bootstrap Carousel':
+		prefix: 'uib-carousel'
+		body: """
+				<div uib-carousel active="${1:currentSlideIndex}" interval="${2:3000}">
+					<div uib-slide index="${3:index}">
+						<img ng-src="{{${4:slideImage}}}" style="margin: auto;">
+						<div class="carousel-caption">
+							<h4>${5:A Slide}</h4>
+							<p>${6:The Slide Text}</p>
+						</div>
+					</div>
+				</div>$7
+				"""
+
+	'UI-Bootstrap Carousel Slide':
+		prefix: 'uib-slide'
+		body: """
+				<div uib-slide index="${1:index}">
+					<img ng-src="{{${2:slideImage}}}" style="margin: auto;">
+					<div class="carousel-caption">
+						<h4>${3:A Slide}</h4>
+						<p>${4:The Slide Text}</p>
+					</div>
+				</div>$5
+				"""
+
 	# Collapse
 	'UI-Bootstrap Collapse':
 		prefix: 'uib-collapse'

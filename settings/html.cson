@@ -13,6 +13,7 @@
 			'uib-btn-group-radio'
 			'uib-btn-radio'
 			'uib-carousel'
+			'uib-slide'
 			'uib-collapse'
 			'uib-dateparser'
 			'uib-datepicker'
@@ -41,7 +42,7 @@
 			'uib-tooltip-'
 			'uib-typeahead'
 
-			## Properties for individual use
+			## Properties/Directives for individual use
 
 			# General
 			'template-url'
