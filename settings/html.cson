@@ -8,4 +8,8 @@
 
 			# Carousel
 			'uib-slide'
+
+			# Modal
+			'$dismiss(reason)'
+			'$close(result)'
 		]
