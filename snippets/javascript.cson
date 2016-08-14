@@ -1,5 +1,6 @@
 '.source.js':
 
+	# Datepicker
 	'UI-Bootstrap Datepicker Options':
 		prefix: 'uib-datepicker-options'
 		body:
@@ -14,4 +15,12 @@
 				customClass: ${7:getCustomClass},
 				dateDisabled: ${8:isDateDisabled}
 			}
+			"""
+
+	# Dateparser
+	'UI-Bootstrap Dateparser':
+		prefix: 'uib-dateparser'
+		body:
+			"""
+			uibDateParser.parse('2004/Sep/4', 'yyyy/MMM/dd', new Date());
 			"""

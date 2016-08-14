@@ -25,7 +25,7 @@ Currently supporting UI Bootstrap Version 1.3.0+ and thus Bootstrap Version 3.0+
 - [x] Button
 - [x] Carousel
 - [x] Collapse
-- [ ] Dateparser
+- [x] Dateparser
 - [x] Datepicker
 - [x] DatepickerPopup
 - [x] Dropdown
