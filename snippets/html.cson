@@ -221,7 +221,7 @@
 		body: """
 				<uib-pagination
 					ng-model="${1:currentPage}"
-					ng-changed="${2:changedPage()}"
+					ng-change="${2:changedPage()}"
 					total-items="${3:myItems.length}">
 				</uib-pagination>$4
 				"""
@@ -231,7 +231,7 @@
 		body: """
 				<uib-pagination
 					ng-model="${1:currentPage}"
-					ng-changed="${2:changedPage()}"
+					ng-change="${2:changedPage()}"
 					total-items="${3:myItems.length}"
 					items-per-page="${4:10}"
 					max-size="${5:5}"
