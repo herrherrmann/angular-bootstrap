@@ -3,7 +3,7 @@ Atom Snippets for [UI Bootstrap](https://angular-ui.github.io/bootstrap) (Bootst
 
 # How to use
 
-In any HTML file simply start typing `uib-`. Depending on your configuration of the autocomplete-plus package you'll see auto-completions and you can insert the snippets via pressing enter and/or tab.
+In any HTML or JavaScript file simply start typing `uib-`. Depending on your configuration of the autocomplete-plus package you'll see auto-completions and you can insert the snippets via pressing enter and/or tab.
 
 **Tip:** Quickly toggle through placeholders via pressing tab!
 
